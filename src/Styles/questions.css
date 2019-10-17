@@ -1,0 +1,59 @@
+.question .question-header .question-number {
+  width: 40px;
+  height: 40px;
+  font-size: 20pt;
+  vertical-align: middle;
+  padding: 0.6rem;
+  @apply inline-block;
+  @apply leading-none;
+  @apply text-white;
+  @apply bg-gray-500;
+  @apply rounded-full;
+  @apply text-center;
+  @apply float-right;
+  @apply ml-3;
+}
+
+.question .question-header .question-title {
+  @apply text-right;
+  @apply text-green-700;
+  @apply text-2xl;
+  @apply font-bold;
+  @apply font-nahdi-bold;
+  @apply block;
+}
+
+.question .question-header .question-subtitle {
+  @apply text-right;
+  @apply font-bold;
+  @apply text-gray-600;
+  @apply block;
+  font-size: 0.7rem;
+  margin-right: 3.3rem;
+}
+
+.btn-next {
+  @apply bg-green-500;
+  @apply py-2;
+  @apply px-5;
+  @apply rounded-full;
+  @apply text-white;
+  @apply font-bold;
+  font-size: 10pt;
+}
+
+.btn-send {
+  @apply bg-green-500;
+  @apply py-4;
+  @apply px-8;
+  @apply font-nahdi-bold;
+  @apply text-lg;
+  @apply rounded-full;
+  @apply text-center;
+  @apply mt-5;
+  @apply text-white;
+}
+
+.btn-send:disabled {
+  @apply bg-gray-400;
+}

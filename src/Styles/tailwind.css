@@ -1,0 +1,19 @@
+@font-face {
+  font-family: 'Nahdi';
+  src: url('../Assets/fonts/arabic/Nahdi-Bold.ttf');
+  font-style: normal;
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: 'NahdiBold';
+  src: url('../Assets/fonts/arabic/Nahdi-Black.ttf');
+  font-style: normal;
+  font-weight: 900;
+}
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import './questions.css'
